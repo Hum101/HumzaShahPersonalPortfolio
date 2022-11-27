@@ -7,12 +7,22 @@ var current;
 
 var stack = [];
 
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+
+
 function setup() {
   createCanvas(600, 600);
   DFS();
 
-    var button = createButton("reset");//reset button
-    button.mousePressed(DFS);
+    // var button = createButton("reset");//reset button
+    // button.mousePressed(DFS);
  
 
 
@@ -21,7 +31,7 @@ function DFS(){
     
     cols = floor(width / w);
     rows = floor(height / w);
-    //frameRate(5);
+    frameRate(output);
 
     for (var j = 0; j < rows; j++) {
         for (var i = 0; i < cols; i++) {
