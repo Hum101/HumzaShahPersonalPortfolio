@@ -74,11 +74,13 @@
   section h1 {
     font-size: 4rem;
   }
+
+
   
   
   /* Section Images */
   section#home {
-    background: url("bay-bridge-san-francisco-oakland-bay-bridge-night-city-5120x3413-1609.jpg") no-repeat center center/cover;;
+    background: url("jonathan-roger-LY1eyQMFeyo-unsplash.jpg") no-repeat center center/cover;;
   }
   
   section#about {
@@ -88,9 +90,18 @@
   section#projects {
     background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900");
   }
-  
+
+    /* Last Page */
   section#contact {
     background: url("full-moon-mountain-peak-snow-covered-moon-light-iceland-3840x2160-7288.jpg") no-repeat center center/cover;;
   }
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+
+
   
   
