@@ -75,32 +75,40 @@
     font-size: 4rem;
   }
 
-
   
   
   /* Section Images */
   section#home {
-    background: url("jonathan-roger-LY1eyQMFeyo-unsplash.jpg") no-repeat center center/cover;;
+    background: url("brooklyn-bridge-manhattan-city-lights-night-cityscape-river-7952x5304-1703.jpg")no-repeat center center/cover;
   }
-  
   section#about {
-    background: url("Aesthetic-Computer-Wallpaper-4k.jpg" ) no-repeat center center/cover;;
+    background: url("Aesthetic-Computer-Wallpaper-4k.jpg" ) no-repeat center center/cover;
   }
   
   section#projects {
-    background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900");
+    background: url("https://source.unsplash.com/K2tdx2mFDHc/1600x900")no-repeat center center/cover;
   }
 
     /* Last Page */
   section#contact {
-    background: url("full-moon-mountain-peak-snow-covered-moon-light-iceland-3840x2160-7288.jpg") no-repeat center center/cover;;
+    background: url("full-moon-mountain-peak-snow-covered-moon-light-iceland-3840x2160-7288.jpg") no-repeat center center/cover;
   }
+  
+  
   a:link {
-    color: green;
+    color: rgb(0, 255, 255);
     background-color: transparent;
     text-decoration: none;
   }
-  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+ }
+ a:visited {
+  color: rgb(0, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
 
 
   
